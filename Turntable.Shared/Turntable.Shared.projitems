@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>636c013e-26c7-4c17-b82a-5d725af7691f</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Turntable</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\dj.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\largelogo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\largelogo.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\largelogo.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\largelogo.scale-80.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\logo.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\logo.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\logo.scale-80.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\smalllogo.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\smalllogo.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\smalllogo.scale-80.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\smalltilelogo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\smalltilelogo.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\smalltilelogo.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\smalltilelogo.scale-80.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SplashScreen.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\splashscreen.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\splashscreen.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\StoreLogo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\storelogo.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\storelogo.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\widelogo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\widelogo.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\widelogo.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\widelogo.scale-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>
